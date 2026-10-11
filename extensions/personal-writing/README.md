@@ -20,7 +20,7 @@ skills/
 
 ## 사용
 
-Claude Code는 이 폴더를 플러그인 루트로 사용합니다. 복제 저장소 루트에는 기존 humanize-korean 패키지가 남아 있습니다.
+Claude Code는 아래 설치 절차로 등록한 뒤 사용합니다. 로컬 수정본을 일시적으로 시험할 때는 이 폴더를 플러그인 루트로 지정합니다. 복제 저장소 루트에는 기존 humanize-korean 패키지가 남아 있습니다.
 
 ```sh
 claude --plugin-dir /absolute/path/to/my-writing-skills/extensions/personal-writing
@@ -44,7 +44,7 @@ mkdir -p /absolute/path/to/project/.agents/skills
 cp -R /absolute/path/to/my-writing-skills/extensions/personal-writing/skills/. /absolute/path/to/project/.agents/skills/
 ```
 
-원본 `install.sh`는 humanize-korean 설치용이므로 이 묶음 설치에 사용하지 않습니다. 개인 GitHub 마켓플레이스에 게시했습니다. 이 작업에서 사용자의 전역 스킬 디렉터리는 변경하지 않았습니다.
+원본 `install.sh`는 humanize-korean 설치용이므로 이 묶음 설치에 사용하지 않습니다. 사용자 범위 설치와 재설치는 아래 절차를 따르세요. 저장소를 수정하거나 push하는 것만으로 설치된 복사본이 갱신되지는 않습니다.
 
 ## 내 규칙 수정
 
@@ -84,9 +84,62 @@ Sol 6.1(`gpt-6.1-sol`)과 Opus 5.5(`claude-opus-5-5`)를 실제 실행하며 개
 
 [현재 버전의 결과·검증 범위](../../evals/2026-10-11-v036-release/REPORT.md)와 [초기 실패 기록](../../evals/2026-10-11-sol61-opus55/REPORT.md)을 함께 공개합니다. 전체 평가를 최종 버전 한 번의 통과 수치로 합산하지 않습니다. 합성 입력과 명시적 스킬 호출 평가이며, 실무 전반 품질이나 자동 탐색을 보장하지 않습니다.
 
-## GitHub 마켓플레이스 설치
+## 설치와 업데이트
+
+### Claude Code 사용자 범위 설치
+
+```sh
+claude plugin install personal-writing --marketplace sangwookp9591/im-not-ai-by-ai-ng --scope user
+claude plugin list
+```
+
+대화창에서는 다음 명령으로 설치할 수 있습니다.
 
 ```text
 /plugin marketplace add sangwookp9591/im-not-ai-by-ai-ng
 /plugin install personal-writing@im-not-ai-by-ai-ng
 ```
+
+기존 원본 대신 커스텀 스킬만 사용하려면 설치 성공을 확인한 뒤 원본을 비활성화합니다. 원본이 설치되어 있을 때만 실행합니다.
+
+```sh
+claude plugin disable humanize-korean@im-not-ai --scope user
+```
+
+업데이트할 때는 마켓플레이스를 새로 받은 뒤 플러그인을 갱신합니다.
+
+```sh
+claude plugin marketplace update im-not-ai-by-ai-ng
+claude plugin update personal-writing@im-not-ai-by-ai-ng --scope user
+claude plugin list
+```
+
+설치·갱신 후 Claude Code를 다시 시작합니다. 목록에서 `personal-writing@im-not-ai-by-ai-ng`의 버전과 활성 상태를 확인하세요. 동일 플러그인을 설치한 상태에서 `--plugin-dir`로 중복 로드하지 마세요.
+
+### Codex 사용자 범위 설치·재설치
+
+Codex의 `skill-installer`에 이 저장소의 `extensions/personal-writing/skills/` 아래 6개 폴더를 모두 설치하도록 요청합니다. 기본 위치는 `$CODEX_HOME/skills`이며, 환경 변수가 없으면 `~/.codex/skills`입니다. Orca의 계정별 CODEX_HOME을 사용하는 경우 해당 계정에 설치됩니다.
+
+설치 도우미를 직접 실행할 경우, `<skill-installer>`를 현재 환경의 skill-installer 폴더 경로로 바꿉니다.
+
+```sh
+python3 <skill-installer>/scripts/install-skill-from-github.py \
+  --repo sangwookp9591/im-not-ai-by-ai-ng \
+  --path extensions/personal-writing/skills/my-writing-base \
+         extensions/personal-writing/skills/my-planning \
+         extensions/personal-writing/skills/my-slides \
+         extensions/personal-writing/skills/my-presentation \
+         extensions/personal-writing/skills/my-speech \
+         extensions/personal-writing/skills/my-application
+```
+
+팀원 모두 동일한 버전을 사용하려면 `--ref <검증된 커밋 SHA>`를 추가합니다. Python 인증서 문제로 다운로드가 실패하면 인증서 검증을 끄지 말고 `--method git`을 사용합니다.
+
+도우미는 기존 대상 폴더를 덮어쓰지 않습니다. 재설치 전 기존 6개 폴더를 스킬 탐색 경로 밖으로 백업하고, 같은 커밋에서 6개 모두 다시 설치하세요. 로컬에서 규칙을 수정했다면 백업과 저장소의 차이를 먼저 확인합니다. 설치 후 다음 턴부터 사용할 수 있습니다.
+
+설치 확인 항목:
+
+- 기본 1개와 파생 5개가 같은 부모 폴더 아래에 있는지 확인합니다.
+- 각 `SKILL.md`와 `my-writing-base/references/core.md`가 존재하는지 확인합니다.
+- 설치본 파일을 선택한 커밋의 원본과 비교합니다. 폴더 존재만으로 최신 버전이라고 판단하지 않습니다.
+- 다른 계정이나 프로젝트에 같은 이름의 오래된 설치본이 있으면 해당 환경에서도 별도로 갱신합니다.
