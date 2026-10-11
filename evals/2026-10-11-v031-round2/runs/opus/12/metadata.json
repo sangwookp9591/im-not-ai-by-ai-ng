@@ -1,0 +1,87 @@
+{
+  "case_id": "12",
+  "provider": "opus",
+  "requested_model": "claude-opus-5-5",
+  "effort": "medium",
+  "command": [
+    "claude",
+    "-p",
+    "--model",
+    "claude-opus-5-5",
+    "--effort",
+    "medium",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--no-session-persistence",
+    "--tools",
+    "Read,Bash,Write",
+    "--allowedTools",
+    "Read,Bash,Write",
+    "--permission-mode",
+    "dontAsk",
+    "--strict-mcp-config",
+    "--setting-sources",
+    "",
+    "--add-dir",
+    "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v031-round2/snapshot"
+  ],
+  "started_at": "2026-10-11T05:04:59.811650+00:00",
+  "elapsed_seconds": 7.323,
+  "returncode": 0,
+  "timed_out": false,
+  "is_error": false,
+  "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 6666,
+    "cache_read_input_tokens": 18040,
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6666,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 112,
+        "cache_read_input_tokens": 7188,
+        "cache_creation_input_tokens": 4071,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4071
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "model_usage": {
+    "claude-opus-5-5": {
+      "inputTokens": 6,
+      "outputTokens": 349,
+      "cacheReadInputTokens": 18040,
+      "cacheCreationInputTokens": 6666,
+      "webSearchRequests": 0,
+      "costUSD": 0.06394,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "api_list_cost_usd": 0.06394,
+  "has_final": true
+}

@@ -6,10 +6,10 @@ im-not-ai를 복제해 기본 → 용도별 파생 스킬 구조로 확장한 �
 
 - [기본 스킬](extensions/personal-writing/skills/my-writing-base/SKILL.md)
 - [개선 검토 보고서](TEAM-WRITING-REVIEW.md)
-- [Sol 6.1·Opus 5.5 실제 품질 평가](evals/2026-10-11-sol61-opus55/REPORT.md)
+- [Sol 6.1·Opus 5.5 개선·재평가](evals/2026-10-11-v036-release/REPORT.md)
 - [원본 README](README.upstream.md)
 
-원본 코드는 비교와 개선을 위해 보존합니다. 루트의 기존 설치 스크립트 대신 개인 패키지의 사용 안내를 따르세요. 로컬 복제본이며 아직 원격 배포하지 않았습니다.
+원본 코드는 비교와 개선을 위해 보존합니다. 루트의 기존 설치 스크립트 대신 개인 패키지의 사용 안내를 따르세요. 개인 GitHub 저장소에서 관리하며 팀원도 같은 마켓플레이스로 설치할 수 있습니다.
 
 ## Claude Code 설치
 

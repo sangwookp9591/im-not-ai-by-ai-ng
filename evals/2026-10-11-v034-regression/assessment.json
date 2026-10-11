@@ -1,0 +1,515 @@
+{
+  "evaluator": "작업 에이전트 원문 대조; 인간 전문가 평가 아님",
+  "records": [
+    {
+      "case_id": "01",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "ID 유지",
+        "의무 유지",
+        "긴급 요청 예외와 가능성 유지",
+        "불필요한 재작성 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "01",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "ID 유지",
+        "의무 유지",
+        "긴급 요청 예외와 가능성 유지",
+        "불필요한 재작성 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "04",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "화면에 내부 테스트와 n=20",
+        "시간 수치 보존",
+        "10월 유지 및 이동 추적",
+        "성과 확대 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "04",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "화면에 내부 테스트와 n=20",
+        "시간 수치 보존",
+        "10월 유지 및 이동 추적",
+        "성과 확대 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "09",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "성과 수치 날조 없음",
+        "도움 역할 주도 격상 없음",
+        "새 행동 경험 날조 없음",
+        "보완 질문/메모 본문과 구별"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "09",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "성과 수치 날조 없음",
+        "도움 역할 주도 격상 없음",
+        "새 행동 경험 날조 없음",
+        "보완 질문/메모 본문과 구별"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "10",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "화면/노트 구획 유지",
+        "비용 미확정 유지",
+        "길잡이 표현 유지",
+        "해당 파생 규칙 실제 로드"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "10",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "화면/노트 구획 유지",
+        "비용 미확정 유지",
+        "길잡이 표현 유지",
+        "해당 파생 규칙 실제 로드"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "11",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "방향/속도 우선관계 유지",
+        "질/양 우선관계 유지",
+        "검증되지 않음 보존",
+        "새 주장 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "11",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "방향/속도 우선관계 유지",
+        "질/양 우선관계 유지",
+        "검증되지 않음 보존",
+        "새 주장 없음"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "15",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "15",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "20",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "20",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "21",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "21",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "23",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "자료정리/팀제안구분",
+        "중단제안과실제중단구분",
+        "중단여부/원인미확인보존",
+        "간결한메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "23",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "자료정리/팀제안구분",
+        "중단제안과실제중단구분",
+        "중단여부/원인미확인보존",
+        "간결한메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "25",
+      "provider": "sol",
+      "core_and_user_constraints": "review",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": "이중 부정을 배제 불가로 바꿔 판단 근거가 달라질 수 있음. v0.3.5에서 보호."
+    },
+    {
+      "case_id": "25",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "29",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "29",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "32",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "원래 존재한 근거관계 보존",
+        "채택 미확인 보존",
+        "실제 교정",
+        "메모 없이 본문과 정확한 글자 수"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "32",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "원래 존재한 근거관계 보존",
+        "채택 미확인 보존",
+        "실제 교정",
+        "메모 없이 본문과 정확한 글자 수"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "35",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "35",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "36",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "36",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "37",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "37",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "38",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "38",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "40",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "본인포함5명",
+        "실험8월/측정9월/보고10월예정 분리",
+        "실제 윤문"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "40",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "본인포함5명",
+        "실험8월/측정9월/보고10월예정 분리",
+        "실제 윤문"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "41",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "41",
+      "provider": "opus",
+      "core_and_user_constraints": "fail",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "note": "집계 방식 미확인인데 수정 예시에 평균을 추가. v0.3.6에서 보호."
+    },
+    {
+      "case_id": "42",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "포함범위/사건날짜 새세션 반복"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "42",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "포함범위/사건날짜 새세션 반복"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "43",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "350자 실측",
+        "개인/팀역할 및 본인포함4명 재검증"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "43",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "350자 실측",
+        "개인/팀역할 및 본인포함4명 재검증"
+      ],
+      "note": null
+    }
+  ]
+}

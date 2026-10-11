@@ -1,0 +1,253 @@
+{
+  "evaluator": "작업 에이전트의 원문 대조 + 새 세션 두 모델의 익명 독립 검토",
+  "decision": "v0.3.6 채택; 경미한 편차와 검토 사항을 공개. 전체 형식 완전 통과가 아님.",
+  "records": [
+    {
+      "case_id": "14",
+      "provider": "sol",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "major_error_found": false,
+      "qualification": "팀 프로젝트 문맥과 공동 주체가 축약됐으나 문맥으로 유지됨. 더 보수적으로 원문 표현을 남길 여지.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "14",
+      "provider": "opus",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "major_error_found": false,
+      "qualification": "메모 라벨·보존 내용 설명, 구체적이 된다 표현의 자연스러움 개선 여지.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "25",
+      "provider": "sol",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "25",
+      "provider": "opus",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "28",
+      "provider": "sol",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "28",
+      "provider": "opus",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "major_error_found": false,
+      "qualification": "무수정 이유 두 문장으로 엄격한 한 문장 형식 미준수.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "29",
+      "provider": "sol",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "29",
+      "provider": "opus",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "40",
+      "provider": "sol",
+      "checks": [
+        "본인포함5명",
+        "실험8월/측정9월/보고10월예정 분리",
+        "실제 윤문"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "40",
+      "provider": "opus",
+      "checks": [
+        "본인포함5명",
+        "실험8월/측정9월/보고10월예정 분리",
+        "실제 윤문"
+      ],
+      "major_error_found": false,
+      "qualification": "200자 이내지만 보존 규칙 설명이 남음.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "41",
+      "provider": "sol",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "major_error_found": false,
+      "qualification": "다른 요인 검토 여부의 자료 부재를 검토되지 않았다고 단정한 경미한 근거 확대.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "41",
+      "provider": "opus",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "44",
+      "provider": "sol",
+      "checks": [
+        "배제불가/효과미확인 구간유지",
+        "이중피동실제교정"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "44",
+      "provider": "opus",
+      "checks": [
+        "배제불가/효과미확인 구간유지",
+        "이중피동실제교정"
+      ],
+      "major_error_found": false,
+      "qualification": "확인된 것은 아니다를 확인되지는 않았다로 바꿔 시제/판단 차이 검토. 명백한 판단 강도 변경으로 확정하지 않음.",
+      "verdict": "review"
+    },
+    {
+      "case_id": "46",
+      "provider": "sol",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "46",
+      "provider": "opus",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "major_error_found": false,
+      "qualification": "측정 시점이 같은지 확인이라는 항목은 시점과 조건 비교를 구별하면 더 명확함.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "47",
+      "provider": "sol",
+      "checks": [
+        "중앙값을 평균으로 바꾸거나 삭제하지 않음",
+        "다른요인/대조군 고려",
+        "없는인과확정금지"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "47",
+      "provider": "opus",
+      "checks": [
+        "중앙값을 평균으로 바꾸거나 삭제하지 않음",
+        "다른요인/대조군 고려",
+        "없는인과확정금지"
+      ],
+      "major_error_found": false,
+      "qualification": "제공 내용에 없는 조건과 실제 슬라이드 누락의 구별을 더 명확히 할 여지.",
+      "verdict": "minor"
+    },
+    {
+      "case_id": "48",
+      "provider": "sol",
+      "checks": [
+        "평균/중앙값/총점/만점 창작금지",
+        "예시에도확인안된집계방식추가금지"
+      ],
+      "major_error_found": false,
+      "qualification": null,
+      "verdict": "pass"
+    },
+    {
+      "case_id": "48",
+      "provider": "opus",
+      "checks": [
+        "평균/중앙값/총점/만점 창작금지",
+        "예시에도확인안된집계방식추가금지"
+      ],
+      "major_error_found": false,
+      "qualification": "인과/다음 행동까지 검토 범위가 넓고 일부 설명 반복. 확인 불가 항목은 조건부로 제시했으며 사실 확정은 하지 않음.",
+      "verdict": "minor"
+    }
+  ],
+  "adjudication": [
+    "두 검토자 모두 20개 결과에서 중대한 의미 변경을 발견하지 않음.",
+    "44 Opus의 시제 표현은 검토 사항으로 유지하며 명확한 사실 반전으로 단정하지 않음.",
+    "14 Sol의 함께는 문맥상 팀 공동 작업으로 해석 가능. 인터뷰 뒤 응답 정리는 그 응답의 처리 순서를 표현하며 새 인과를 확정하지 않음.",
+    "48의 선택 검토 범위 확대는 사실 창작과 구분. 간결성과 요청 범위 개선 여지가 남음.",
+    "평가자의 의견을 다수결로 자동 채택하지 않고 원문과 문맥으로 판정. 인간 평가로 표기하지 않음."
+  ]
+}

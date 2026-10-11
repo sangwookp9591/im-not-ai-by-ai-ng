@@ -1,0 +1,35 @@
+{
+  "case_id": "09",
+  "provider": "sol",
+  "requested_model": "gpt-6.1-sol",
+  "effort": "medium",
+  "command": [
+    "codex",
+    "--no-daemon",
+    "exec",
+    "--model",
+    "gpt-6.1-sol",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "--sandbox",
+    "workspace-write",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v034-regression/runs/sol/09/final.md",
+    "-"
+  ],
+  "started_at": "2026-10-11T05:22:35.103304+00:00",
+  "elapsed_seconds": 25.828,
+  "returncode": 0,
+  "timed_out": false,
+  "usage": {
+    "input_tokens": 66160,
+    "cached_input_tokens": 53248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 491,
+    "reasoning_output_tokens": 134
+  },
+  "has_final": true
+}

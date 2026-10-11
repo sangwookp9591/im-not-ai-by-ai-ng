@@ -1,0 +1,2686 @@
+[
+  {
+    "case_id": "01",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:57:43.021549+00:00",
+    "elapsed_seconds": 16.369,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 7069,
+      "cache_read_input_tokens": 18001,
+      "output_tokens": 417,
+      "output_tokens_details": {
+        "thinking_tokens": 23
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7069,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 160,
+          "cache_read_input_tokens": 7279,
+          "cache_creation_input_tokens": 4383,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 4383
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 417,
+        "cacheReadInputTokens": 18001,
+        "cacheCreationInputTokens": 7069,
+        "webSearchRequests": 0,
+        "costUSD": 0.0685162,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 23,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0685162,
+    "has_final": true
+  },
+  {
+    "case_id": "01",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/01/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:57:43.017953+00:00",
+    "elapsed_seconds": 18.689,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 62971,
+      "cached_input_tokens": 44032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 314,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "02",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/02/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:57:43.013891+00:00",
+    "elapsed_seconds": 19.096,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 62956,
+      "cached_input_tokens": 51840,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 412,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "02",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:57:43.012985+00:00",
+    "elapsed_seconds": 28.08,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7148,
+      "cache_read_input_tokens": 28818,
+      "output_tokens": 1550,
+      "output_tokens_details": {
+        "thinking_tokens": 276
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7148,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1119,
+          "cache_read_input_tokens": 10839,
+          "cache_creation_input_tokens": 902,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 902
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1550,
+        "cacheReadInputTokens": 28818,
+        "cacheCreationInputTokens": 7148,
+        "webSearchRequests": 0,
+        "costUSD": 0.0939796,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 276,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0939796,
+    "has_final": true
+  },
+  {
+    "case_id": "03",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/03/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:57:59.395407+00:00",
+    "elapsed_seconds": 17.796,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63089,
+      "cached_input_tokens": 51968,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 350,
+      "reasoning_output_tokens": 39
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "04",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/04/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:58:02.112598+00:00",
+    "elapsed_seconds": 19.238,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63105,
+      "cached_input_tokens": 51968,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 345,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "03",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:58:01.712728+00:00",
+    "elapsed_seconds": 25.025,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 7393,
+      "cache_read_input_tokens": 18006,
+      "output_tokens": 457,
+      "output_tokens_details": {
+        "thinking_tokens": 59
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7393,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 183,
+          "cache_read_input_tokens": 7299,
+          "cache_creation_input_tokens": 4687,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 4687
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 457,
+        "cacheReadInputTokens": 18006,
+        "cacheCreationInputTokens": 7393,
+        "webSearchRequests": 0,
+        "costUSD": 0.0719092,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 59,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0719092,
+    "has_final": true
+  },
+  {
+    "case_id": "05",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/05/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:58:17.194097+00:00",
+    "elapsed_seconds": 19.926,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63045,
+      "cached_input_tokens": 51840,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 484,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "04",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:58:11.095843+00:00",
+    "elapsed_seconds": 27.249,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7577,
+      "cache_read_input_tokens": 28975,
+      "output_tokens": 1184,
+      "output_tokens_details": {
+        "thinking_tokens": 357
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7577,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 730,
+          "cache_read_input_tokens": 10917,
+          "cache_creation_input_tokens": 1253,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1253
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1184,
+        "cacheReadInputTokens": 28975,
+        "cacheCreationInputTokens": 7577,
+        "webSearchRequests": 0,
+        "costUSD": 0.09012299999999998,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 357,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.09012299999999998,
+    "has_final": true
+  },
+  {
+    "case_id": "06",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/06/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:58:26.739724+00:00",
+    "elapsed_seconds": 20.059,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63062,
+      "cached_input_tokens": 44032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 330,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "05",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:58:21.353332+00:00",
+    "elapsed_seconds": 34.026,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7497,
+      "cache_read_input_tokens": 28881,
+      "output_tokens": 1619,
+      "output_tokens_details": {
+        "thinking_tokens": 225
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7497,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1181,
+          "cache_read_input_tokens": 10866,
+          "cache_creation_input_tokens": 1224,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1224
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1619,
+        "cacheReadInputTokens": 28881,
+        "cacheCreationInputTokens": 7497,
+        "webSearchRequests": 0,
+        "costUSD": 0.09816420000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 225,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.09816420000000001,
+    "has_final": true
+  },
+  {
+    "case_id": "06",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:58:37.131144+00:00",
+    "elapsed_seconds": 23.997,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7343,
+      "cache_read_input_tokens": 28814,
+      "output_tokens": 541,
+      "output_tokens_details": {
+        "thinking_tokens": 27
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7343,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 167,
+          "cache_read_input_tokens": 10820,
+          "cache_creation_input_tokens": 1116,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1116
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 541,
+        "cacheReadInputTokens": 28814,
+        "cacheCreationInputTokens": 7343,
+        "webSearchRequests": 0,
+        "costUSD": 0.0753588,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 27,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0753588,
+    "has_final": true
+  },
+  {
+    "case_id": "07",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/07/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:58:38.347106+00:00",
+    "elapsed_seconds": 23.027,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63074,
+      "cached_input_tokens": 44800,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 529,
+      "reasoning_output_tokens": 155
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "07",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:58:46.804161+00:00",
+    "elapsed_seconds": 35.439,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 8705,
+      "cache_read_input_tokens": 40762,
+      "output_tokens": 1816,
+      "output_tokens_details": {
+        "thinking_tokens": 423
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8705,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 691,
+          "cache_read_input_tokens": 12135,
+          "cache_creation_input_tokens": 1163,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1163
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 10,
+        "outputTokens": 1816,
+        "cacheReadInputTokens": 40762,
+        "cacheCreationInputTokens": 8705,
+        "webSearchRequests": 0,
+        "costUSD": 0.11415239999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 423,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.11415239999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "08",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/08/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:58:55.385969+00:00",
+    "elapsed_seconds": 26.916,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 86716,
+      "cached_input_tokens": 74880,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 586,
+      "reasoning_output_tokens": 131
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "09",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/09/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:59:01.379981+00:00",
+    "elapsed_seconds": 28.363,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 65135,
+      "cached_input_tokens": 53248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 643,
+      "reasoning_output_tokens": 292
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "08",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:59:01.131011+00:00",
+    "elapsed_seconds": 35.19,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 8170,
+      "cache_read_input_tokens": 40763,
+      "output_tokens": 1370,
+      "output_tokens_details": {
+        "thinking_tokens": 226
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8170,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 448,
+          "cache_read_input_tokens": 12083,
+          "cache_creation_input_tokens": 680,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 680
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 10,
+        "outputTokens": 1370,
+        "cacheReadInputTokens": 40763,
+        "cacheCreationInputTokens": 8170,
+        "webSearchRequests": 0,
+        "costUSD": 0.10095259999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 226,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.10095259999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "10",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/10/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:59:22.304025+00:00",
+    "elapsed_seconds": 22.636,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 88535,
+      "cached_input_tokens": 64128,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 509,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "09",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:59:22.258632+00:00",
+    "elapsed_seconds": 29.55,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7471,
+      "cache_read_input_tokens": 28611,
+      "output_tokens": 1264,
+      "output_tokens_details": {
+        "thinking_tokens": 291
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7471,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 816,
+          "cache_read_input_tokens": 10785,
+          "cache_creation_input_tokens": 1279,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1279
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1264,
+        "cacheReadInputTokens": 28611,
+        "cacheCreationInputTokens": 7471,
+        "webSearchRequests": 0,
+        "costUSD": 0.0908022,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 291,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0908022,
+    "has_final": true
+  },
+  {
+    "case_id": "11",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/11/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:59:36.322874+00:00",
+    "elapsed_seconds": 18.09,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 62171,
+      "cached_input_tokens": 51840,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 337,
+      "reasoning_output_tokens": 99
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "11",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:59:44.942107+00:00",
+    "elapsed_seconds": 15.137,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6024,
+      "cache_read_input_tokens": 17622,
+      "output_tokens": 970,
+      "output_tokens_details": {
+        "thinking_tokens": 441
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6024,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 733,
+          "cache_read_input_tokens": 6979,
+          "cache_creation_input_tokens": 3638,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3638
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 970,
+        "cacheReadInputTokens": 17622,
+        "cacheCreationInputTokens": 6024,
+        "webSearchRequests": 0,
+        "costUSD": 0.07114039999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 441,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.07114039999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "10",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:59:29.746701+00:00",
+    "elapsed_seconds": 31.164,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 10380,
+      "cache_read_input_tokens": 41129,
+      "output_tokens": 970,
+      "output_tokens_details": {
+        "thinking_tokens": 136
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 10380,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 360,
+          "cache_read_input_tokens": 12919,
+          "cache_creation_input_tokens": 2054,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 2054
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 10,
+        "outputTokens": 970,
+        "cacheReadInputTokens": 41129,
+        "cacheCreationInputTokens": 10380,
+        "webSearchRequests": 0,
+        "costUSD": 0.1107058,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 136,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.1107058,
+    "has_final": true
+  },
+  {
+    "case_id": "12",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T04:59:54.415238+00:00",
+    "elapsed_seconds": 9.205,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6019,
+      "cache_read_input_tokens": 17612,
+      "output_tokens": 371,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6019,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 134,
+          "cache_read_input_tokens": 6974,
+          "cache_creation_input_tokens": 3638,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3638
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 371,
+        "cacheReadInputTokens": 17612,
+        "cacheCreationInputTokens": 6019,
+        "webSearchRequests": 0,
+        "costUSD": 0.0591184,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0591184,
+    "has_final": true
+  },
+  {
+    "case_id": "12",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/12/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T04:59:51.813074+00:00",
+    "elapsed_seconds": 16.356,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 62159,
+      "cached_input_tokens": 44032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 222,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "13",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/13/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:00:00.080976+00:00",
+    "elapsed_seconds": 25.791,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 65811,
+      "cached_input_tokens": 53760,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 732,
+      "reasoning_output_tokens": 133
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "13",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:00:00.914210+00:00",
+    "elapsed_seconds": 31.597,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7716,
+      "cache_read_input_tokens": 30077,
+      "output_tokens": 1603,
+      "output_tokens_details": {
+        "thinking_tokens": 444
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7716,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1153,
+          "cache_read_input_tokens": 11270,
+          "cache_creation_input_tokens": 1039,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1039
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1603,
+        "cacheReadInputTokens": 30077,
+        "cacheCreationInputTokens": 7716,
+        "webSearchRequests": 0,
+        "costUSD": 0.09983539999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 444,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.09983539999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "14",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/14/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:00:03.622357+00:00",
+    "elapsed_seconds": 34.539,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 87612,
+      "cached_input_tokens": 75392,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 943,
+      "reasoning_output_tokens": 193
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "15",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/15/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:00:25.874545+00:00",
+    "elapsed_seconds": 23.616,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63132,
+      "cached_input_tokens": 51968,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 491,
+      "reasoning_output_tokens": 147
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "14",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:00:08.172814+00:00",
+    "elapsed_seconds": 42.673,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 9330,
+      "cache_read_input_tokens": 41988,
+      "output_tokens": 2337,
+      "output_tokens_details": {
+        "thinking_tokens": 649
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 9330,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 720,
+          "cache_read_input_tokens": 12371,
+          "cache_creation_input_tokens": 1552,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1552
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 10,
+        "outputTokens": 2337,
+        "cacheReadInputTokens": 41988,
+        "cacheCreationInputTokens": 9330,
+        "webSearchRequests": 0,
+        "costUSD": 0.1298176,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 649,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.1298176,
+    "has_final": true
+  },
+  {
+    "case_id": "16",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/16/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:00:38.164054+00:00",
+    "elapsed_seconds": 20.562,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63022,
+      "cached_input_tokens": 51968,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 376,
+      "reasoning_output_tokens": 32
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "15",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:00:32.514428+00:00",
+    "elapsed_seconds": 31.331,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7498,
+      "cache_read_input_tokens": 28694,
+      "output_tokens": 1202,
+      "output_tokens_details": {
+        "thinking_tokens": 362
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7498,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 755,
+          "cache_read_input_tokens": 10812,
+          "cache_creation_input_tokens": 1279,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1279
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1202,
+        "cacheReadInputTokens": 28694,
+        "cacheCreationInputTokens": 7498,
+        "webSearchRequests": 0,
+        "costUSD": 0.0897948,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 362,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0897948,
+    "has_final": true
+  },
+  {
+    "case_id": "17",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/17/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:00:50.848650+00:00",
+    "elapsed_seconds": 22.123,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 64260,
+      "cached_input_tokens": 44672,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 254,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "17",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:00:58.727293+00:00",
+    "elapsed_seconds": 15.647,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6040,
+      "cache_read_input_tokens": 17654,
+      "output_tokens": 919,
+      "output_tokens_details": {
+        "thinking_tokens": 325
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6040,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 682,
+          "cache_read_input_tokens": 6995,
+          "cache_creation_input_tokens": 3638,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3638
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 919,
+        "cacheReadInputTokens": 17654,
+        "cacheCreationInputTokens": 6040,
+        "webSearchRequests": 0,
+        "costUSD": 0.07025479999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 325,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.07025479999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "16",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:00:49.506342+00:00",
+    "elapsed_seconds": 29.934,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7229,
+      "cache_read_input_tokens": 28754,
+      "output_tokens": 950,
+      "output_tokens_details": {
+        "thinking_tokens": 310
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7229,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 556,
+          "cache_read_input_tokens": 10809,
+          "cache_creation_input_tokens": 1013,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1013
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 950,
+        "cacheReadInputTokens": 28754,
+        "cacheCreationInputTokens": 7229,
+        "webSearchRequests": 0,
+        "costUSD": 0.08261479999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 310,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.08261479999999999,
+    "has_final": true
+  },
+  {
+    "case_id": "18",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/18/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:01:03.848207+00:00",
+    "elapsed_seconds": 24.246,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 65211,
+      "cached_input_tokens": 53248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 337,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "19",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/19/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:01:14.381190+00:00",
+    "elapsed_seconds": 22.886,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 65088,
+      "cached_input_tokens": 53248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 428,
+      "reasoning_output_tokens": 79
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "18",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:01:12.985592+00:00",
+    "elapsed_seconds": 24.429,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7452,
+      "cache_read_input_tokens": 28746,
+      "output_tokens": 1026,
+      "output_tokens_details": {
+        "thinking_tokens": 310
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7452,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 632,
+          "cache_read_input_tokens": 10818,
+          "cache_creation_input_tokens": 1227,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1227
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1026,
+        "cacheReadInputTokens": 28746,
+        "cacheCreationInputTokens": 7452,
+        "webSearchRequests": 0,
+        "costUSD": 0.0859172,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 310,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0859172,
+    "has_final": true
+  },
+  {
+    "case_id": "19",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:01:19.446590+00:00",
+    "elapsed_seconds": 24.472,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 8174,
+      "cache_read_input_tokens": 29731,
+      "output_tokens": 1064,
+      "output_tokens_details": {
+        "thinking_tokens": 105
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8174,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 419,
+          "cache_read_input_tokens": 11897,
+          "cache_creation_input_tokens": 870,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 870
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1064,
+        "cacheReadInputTokens": 29731,
+        "cacheCreationInputTokens": 8174,
+        "webSearchRequests": 0,
+        "costUSD": 0.0926502,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 105,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.0926502,
+    "has_final": true
+  },
+  {
+    "case_id": "20",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/20/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:01:28.095208+00:00",
+    "elapsed_seconds": 19.595,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 63135,
+      "cached_input_tokens": 44032,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 500,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "21",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/21/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:01:37.417047+00:00",
+    "elapsed_seconds": 25.712,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 87354,
+      "cached_input_tokens": 75008,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 822,
+      "reasoning_output_tokens": 137
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "22",
+    "provider": "sol",
+    "requested_model": "gpt-6.1-sol",
+    "effort": "medium",
+    "command": [
+      "codex",
+      "--no-daemon",
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "-c",
+      "model_reasoning_effort=\"medium\"",
+      "--sandbox",
+      "workspace-write",
+      "--ephemeral",
+      "--skip-git-repo-check",
+      "--json",
+      "--output-last-message",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/runs/sol/22/final.md",
+      "-"
+    ],
+    "started_at": "2026-10-11T05:01:47.691945+00:00",
+    "elapsed_seconds": 15.592,
+    "returncode": 0,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 62205,
+      "cached_input_tokens": 51840,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 251,
+      "reasoning_output_tokens": 0
+    },
+    "has_final": true
+  },
+  {
+    "case_id": "20",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:01:37.268612+00:00",
+    "elapsed_seconds": 27.658,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 7320,
+      "cache_read_input_tokens": 28761,
+      "output_tokens": 1798,
+      "output_tokens_details": {
+        "thinking_tokens": 207
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7320,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1362,
+          "cache_read_input_tokens": 10826,
+          "cache_creation_input_tokens": 1087,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1087
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 8,
+        "outputTokens": 1798,
+        "cacheReadInputTokens": 28761,
+        "cacheCreationInputTokens": 7320,
+        "webSearchRequests": 0,
+        "costUSD": 0.10030420000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 207,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.10030420000000001,
+    "has_final": true
+  },
+  {
+    "case_id": "21",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:01:43.920651+00:00",
+    "elapsed_seconds": 28.987,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 8826,
+      "cache_read_input_tokens": 41131,
+      "output_tokens": 1725,
+      "output_tokens_details": {
+        "thinking_tokens": 355
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8826,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 549,
+          "cache_read_input_tokens": 12190,
+          "cache_creation_input_tokens": 1229,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1229
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 10,
+        "outputTokens": 1725,
+        "cacheReadInputTokens": 41131,
+        "cacheCreationInputTokens": 8826,
+        "webSearchRequests": 0,
+        "costUSD": 0.11337420000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 355,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.11337420000000001,
+    "has_final": true
+  },
+  {
+    "case_id": "22",
+    "provider": "opus",
+    "requested_model": "claude-opus-5-5",
+    "effort": "medium",
+    "command": [
+      "claude",
+      "-p",
+      "--model",
+      "claude-opus-5-5",
+      "--effort",
+      "medium",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--no-session-persistence",
+      "--tools",
+      "Read,Bash,Write",
+      "--allowedTools",
+      "Read,Bash,Write",
+      "--permission-mode",
+      "dontAsk",
+      "--strict-mcp-config",
+      "--setting-sources",
+      "",
+      "--add-dir",
+      "/Users/psw/Projects/youtube/im-not-ai/_workspace/my-writing-skills/evals/2026-10-11-v030-round1/snapshot"
+    ],
+    "started_at": "2026-10-11T05:02:03.131648+00:00",
+    "elapsed_seconds": 11.11,
+    "returncode": 0,
+    "timed_out": false,
+    "is_error": false,
+    "usage": {
+      "input_tokens": 6,
+      "cache_creation_input_tokens": 6038,
+      "cache_read_input_tokens": 17650,
+      "output_tokens": 628,
+      "output_tokens_details": {
+        "thinking_tokens": 131
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6038,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 391,
+          "cache_read_input_tokens": 6993,
+          "cache_creation_input_tokens": 3638,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3638
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 6,
+        "outputTokens": 628,
+        "cacheReadInputTokens": 17650,
+        "cacheCreationInputTokens": 6038,
+        "webSearchRequests": 0,
+        "costUSD": 0.064418,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 131,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "api_list_cost_usd": 0.064418,
+    "has_final": true
+  }
+]

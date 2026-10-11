@@ -1,0 +1,705 @@
+{
+  "snapshot_files": 14,
+  "snapshot_mismatches": [],
+  "unique_inputs": 26,
+  "providers": {
+    "sol": {
+      "runs": 26,
+      "successful": 26,
+      "mean_seconds": 18.9035,
+      "original14_mean_response_chars": 202.92857142857142,
+      "mean_response_chars": 239.30769230769232,
+      "core_reads_confirmed": 26,
+      "api_list_cost_usd": null,
+      "records": [
+        {
+          "case_id": "01",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 15.474,
+          "response_chars": 84,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "02",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 19.418,
+          "response_chars": 292,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "03",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 13.843,
+          "response_chars": 72,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "04",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 15.706,
+          "response_chars": 162,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "05",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 20.462,
+          "response_chars": 521,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "06",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 14.392,
+          "response_chars": 90,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "07",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 20.263,
+          "response_chars": 148,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "08",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 21.132,
+          "response_chars": 101,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "09",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 22.728,
+          "response_chars": 105,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "10",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 17.712,
+          "response_chars": 104,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "11",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 18.614,
+          "response_chars": 93,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "12",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 13.484,
+          "response_chars": 77,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "13",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 25.946,
+          "response_chars": 590,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "14",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 25.365,
+          "response_chars": 402,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "15",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 18.682,
+          "response_chars": 135,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "16",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 14.537,
+          "response_chars": 168,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "17",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 15.029,
+          "response_chars": 123,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "18",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 12.424,
+          "response_chars": 66,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "19",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 17.172,
+          "response_chars": 119,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "20",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 20.057,
+          "response_chars": 524,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "21",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 26.043,
+          "response_chars": 189,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "22",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 13.865,
+          "response_chars": 119,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "23",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 17.292,
+          "response_chars": 139,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "24",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 37.477,
+          "response_chars": 1648,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "25",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 21.952,
+          "response_chars": 109,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        },
+        {
+          "case_id": "26",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "gpt-6.1-sol",
+          "returned_model_ids": [],
+          "seconds": 12.422,
+          "response_chars": 42,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": null
+        }
+      ]
+    },
+    "opus": {
+      "runs": 26,
+      "successful": 26,
+      "mean_seconds": 16.743076923076924,
+      "original14_mean_response_chars": 318.57142857142856,
+      "mean_response_chars": 350,
+      "core_reads_confirmed": 26,
+      "api_list_cost_usd": 2.3349446,
+      "records": [
+        {
+          "case_id": "01",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 12.743,
+          "response_chars": 137,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0745818
+        },
+        {
+          "case_id": "02",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 17.342,
+          "response_chars": 750,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.09028939999999999
+        },
+        {
+          "case_id": "03",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 10.614,
+          "response_chars": 110,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0752988
+        },
+        {
+          "case_id": "04",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 18.485,
+          "response_chars": 324,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0858412
+        },
+        {
+          "case_id": "05",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 19.452,
+          "response_chars": 695,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.09465019999999999
+        },
+        {
+          "case_id": "06",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 12.199,
+          "response_chars": 118,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.080078
+        },
+        {
+          "case_id": "07",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 20.278,
+          "response_chars": 244,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": 0.1029836
+        },
+        {
+          "case_id": "08",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 17.612,
+          "response_chars": 186,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": 0.1001492
+        },
+        {
+          "case_id": "09",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 18.084,
+          "response_chars": 278,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.09153819999999999
+        },
+        {
+          "case_id": "10",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 13.713,
+          "response_chars": 155,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.1060196
+        },
+        {
+          "case_id": "11",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 9.14,
+          "response_chars": 165,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.068582
+        },
+        {
+          "case_id": "12",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 7.323,
+          "response_chars": 143,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.06394
+        },
+        {
+          "case_id": "13",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 19.224,
+          "response_chars": 656,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.10161140000000002
+        },
+        {
+          "case_id": "14",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 29.494,
+          "response_chars": 499,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": 0.13140860000000001
+        },
+        {
+          "case_id": "15",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 18.652,
+          "response_chars": 189,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.085462
+        },
+        {
+          "case_id": "16",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 15.908,
+          "response_chars": 212,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0863988
+        },
+        {
+          "case_id": "17",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 13.78,
+          "response_chars": 208,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.07649639999999999
+        },
+        {
+          "case_id": "18",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 15.365,
+          "response_chars": 176,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.08573120000000001
+        },
+        {
+          "case_id": "19",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 19.777,
+          "response_chars": 271,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": 0.1032438
+        },
+        {
+          "case_id": "20",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 19.25,
+          "response_chars": 1065,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.1008046
+        },
+        {
+          "case_id": "21",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 18.251,
+          "response_chars": 304,
+          "core_read_confirmed": true,
+          "stats_tool_success": true,
+          "api_list_cost_usd": 0.1052008
+        },
+        {
+          "case_id": "22",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 12.383,
+          "response_chars": 222,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0722796
+        },
+        {
+          "case_id": "23",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 17.983,
+          "response_chars": 170,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0893014
+        },
+        {
+          "case_id": "24",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 32.099,
+          "response_chars": 1641,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.11725320000000002
+        },
+        {
+          "case_id": "25",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 10.767,
+          "response_chars": 147,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.0679388
+        },
+        {
+          "case_id": "26",
+          "repeat_of": null,
+          "success": true,
+          "requested_model": "claude-opus-5-5",
+          "returned_model_ids": [
+            "claude-opus-5-5"
+          ],
+          "seconds": 15.402,
+          "response_chars": 35,
+          "core_read_confirmed": true,
+          "stats_tool_success": false,
+          "api_list_cost_usd": 0.07786200000000001
+        }
+      ]
+    }
+  }
+}

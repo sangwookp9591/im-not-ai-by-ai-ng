@@ -1,0 +1,16 @@
+{
+  "sol": {
+    "runs": 26,
+    "success": 26,
+    "mean_seconds": 18.9035,
+    "mean_response_chars": 239.30769230769232,
+    "original14_mean_chars": 202.92857142857142
+  },
+  "opus": {
+    "runs": 26,
+    "success": 26,
+    "mean_seconds": 16.743076923076924,
+    "mean_response_chars": 350,
+    "original14_mean_chars": 318.57142857142856
+  }
+}

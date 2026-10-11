@@ -1,0 +1,1095 @@
+{
+  "evaluator": "작업 에이전트의 원문 대조; 인간 전문가 평가 아님",
+  "status": "두 모델의 독립 검토를 대조함; v0.3.4 후속 개선 대상으로 이관",
+  "records": [
+    {
+      "case_id": "01",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "ID 유지",
+        "의무 유지",
+        "긴급 요청 예외와 가능성 유지",
+        "불필요한 재작성 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "01",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "ID 유지",
+        "의무 유지",
+        "긴급 요청 예외와 가능성 유지",
+        "불필요한 재작성 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "02",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "리뷰만",
+        "목표/실적 구별",
+        "담당 창작 없음",
+        "측정 기준 또는 담당 등 구체 누락 지적"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "02",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "리뷰만",
+        "목표/실적 구별",
+        "담당 창작 없음",
+        "측정 기준 또는 담당 등 구체 누락 지적"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "03",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "S2 유지",
+        "3초/2초/n=20 보존",
+        "불릿/짧은 문구 유지",
+        "고객 전체 효과로 확대 금지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "03",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "S2 유지",
+        "3초/2초/n=20 보존",
+        "불릿/짧은 문구 유지",
+        "고객 전체 효과로 확대 금지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "04",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "화면에 내부 테스트와 n=20",
+        "시간 수치 보존",
+        "10월 유지 및 이동 추적",
+        "성과 확대 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "04",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "화면에 내부 테스트와 n=20",
+        "시간 수치 보존",
+        "10월 유지 및 이동 추적",
+        "성과 확대 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "05",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "근거 없는 최저가 지적",
+        "비용 날조 없음",
+        "재구성은 제안으로 구별",
+        "도입 확정으로 바꾸지 않음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "05",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "근거 없는 최저가 지적",
+        "비용 날조 없음",
+        "재구성은 제안으로 구별",
+        "도입 확정으로 바꾸지 않음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "06",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "두 목표 보존",
+        "의무 유지",
+        "길잡이 또는 동등한 청취 구조 유지",
+        "구어 격식 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "06",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "두 목표 보존",
+        "의무 유지",
+        "길잡이 또는 동등한 청취 구조 유지",
+        "구어 격식 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "07",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "검토 단계와 비용 미확인 보존",
+        "분량 채우기 위한 사실 날조 없음",
+        "3분 확정 주장 없음",
+        "자료 부족과 추가 필요 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "07",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "검토 단계와 비용 미확인 보존",
+        "분량 채우기 위한 사실 날조 없음",
+        "3분 확정 주장 없음",
+        "자료 부족과 추가 필요 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "08",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "개인 일정 조율/팀 인터뷰 분리",
+        "12명 보존",
+        "제출 본문 100자 이하",
+        "길이 도구 실제 실행"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "08",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "개인 일정 조율/팀 인터뷰 분리",
+        "12명 보존",
+        "제출 본문 100자 이하",
+        "길이 도구 실제 실행"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "09",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "성과 수치 날조 없음",
+        "도움 역할 주도 격상 없음",
+        "새 행동 경험 날조 없음",
+        "보완 질문/메모 본문과 구별"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "09",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "성과 수치 날조 없음",
+        "도움 역할 주도 격상 없음",
+        "새 행동 경험 날조 없음",
+        "보완 질문/메모 본문과 구별"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "10",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "화면/노트 구획 유지",
+        "비용 미확정 유지",
+        "길잡이 표현 유지",
+        "해당 파생 규칙 실제 로드"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "10",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "화면/노트 구획 유지",
+        "비용 미확정 유지",
+        "길잡이 표현 유지",
+        "해당 파생 규칙 실제 로드"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "무수정 이유가 두 문장"
+    },
+    {
+      "case_id": "11",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "방향/속도 우선관계 유지",
+        "질/양 우선관계 유지",
+        "검증되지 않음 보존",
+        "새 주장 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "11",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "방향/속도 우선관계 유지",
+        "질/양 우선관계 유지",
+        "검증되지 않음 보존",
+        "새 주장 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "무수정 이유가 두 문장"
+    },
+    {
+      "case_id": "12",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "시간과 날짜 유지",
+        "조건 유지",
+        "적절한 원문 유지 또는 최소 교정",
+        "AI 작성 판정/확률 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "12",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "시간과 날짜 유지",
+        "조건 유지",
+        "적절한 원문 유지 또는 최소 교정",
+        "AI 작성 판정/확률 없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "13",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "13",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "불필요한 선택적 보완 제안"
+    },
+    {
+      "case_id": "15",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "15",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "관례적 보완 질문"
+    },
+    {
+      "case_id": "16",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "예상/가능 전체 보존",
+        "삭제의무 유지",
+        "감사 중 예외 기간/가능 보존",
+        "간결한 설명"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "16",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "예상/가능 전체 보존",
+        "삭제의무 유지",
+        "감사 중 예외 기간/가능 보존",
+        "간결한 설명"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "17",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "명시된 원인/결과 보존",
+        "100부/60부 유지",
+        "감소액 미확인 유지",
+        "인과 보호가 과잉삭제로 번지지 않음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "17",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "명시된 원인/결과 보존",
+        "100부/60부 유지",
+        "감소액 미확인 유지",
+        "인과 보호가 과잉삭제로 번지지 않음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "18",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "S4/30명/내부/외부제외 보존",
+        "8분6분/중앙값 보존",
+        "정확도 미측정 보존",
+        "불릿유지 및 효율일반화금지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "18",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "S4/30명/내부/외부제외 보존",
+        "8분6분/중앙값 보존",
+        "정확도 미측정 보존",
+        "불릿유지 및 효율일반화금지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "19",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "미확정 보존",
+        "일정/일화 창작금지",
+        "2분 완료로 제목 표시금지",
+        "미달/자료부족 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "19",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "미확정 보존",
+        "일정/일화 창작금지",
+        "2분 완료로 제목 표시금지",
+        "미달/자료부족 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "20",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "20",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "21",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "21",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "22",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "이중피동 실제교정",
+        "확인 담당자 보존",
+        "안내 발신자 창작금지",
+        "확인후 발송 순서보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "22",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "이중피동 실제교정",
+        "확인 담당자 보존",
+        "안내 발신자 창작금지",
+        "확인후 발송 순서보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "23",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "자료정리/팀제안구분",
+        "중단제안과실제중단구분",
+        "중단여부/원인미확인보존",
+        "간결한메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "23",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "자료정리/팀제안구분",
+        "중단제안과실제중단구분",
+        "중단여부/원인미확인보존",
+        "간결한메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "24",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "리뷰만",
+        "표형식",
+        "목표측정/일정/범위/대응구체검토",
+        "없는담당수치창작없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "24",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "리뷰만",
+        "표형식",
+        "목표측정/일정/범위/대응구체검토",
+        "없는담당수치창작없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "25",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "25",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "무수정 이유가 두 문장"
+    },
+    {
+      "case_id": "26",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "이중피동교정",
+        "확인담당자보존",
+        "발송시점미정유지",
+        "설명없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "26",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "이중피동교정",
+        "확인담당자보존",
+        "발송시점미정유지",
+        "설명없음"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "27",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "조건부 금지와 예외 및 미확인 상태 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "27",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "조건부 금지와 예외 및 미확인 상태 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "무수정 이유가 두 문장"
+    },
+    {
+      "case_id": "29",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "29",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "30",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "개인 분류/동료 수정 보존",
+        "18건 유지",
+        "미측정 보존",
+        "도구로100자 검증"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "30",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "개인 분류/동료 수정 보존",
+        "18건 유지",
+        "미측정 보존",
+        "도구로100자 검증"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "31",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "동일 응답자만으로 인과 입증 인정 금지",
+        "업무 도구 교체 혼란요인 지적",
+        "원문 미수정"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "31",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "동일 응답자만으로 인과 입증 인정 금지",
+        "업무 도구 교체 혼란요인 지적",
+        "원문 미수정"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "32",
+      "provider": "sol",
+      "repeat_of": null,
+      "checked_against": [
+        "원래 존재한 근거관계 보존",
+        "채택 미확인 보존",
+        "실제 교정",
+        "메모 없이 본문과 정확한 글자 수"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "32",
+      "provider": "opus",
+      "repeat_of": null,
+      "checked_against": [
+        "원래 존재한 근거관계 보존",
+        "채택 미확인 보존",
+        "실제 교정",
+        "메모 없이 본문과 정확한 글자 수"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "33",
+      "provider": "sol",
+      "repeat_of": "07",
+      "checked_against": [
+        "검토 단계와 비용 미확인 보존",
+        "분량 채우기 위한 사실 날조 없음",
+        "3분 확정 주장 없음",
+        "자료 부족과 추가 필요 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "33",
+      "provider": "opus",
+      "repeat_of": "07",
+      "checked_against": [
+        "검토 단계와 비용 미확인 보존",
+        "분량 채우기 위한 사실 날조 없음",
+        "3분 확정 주장 없음",
+        "자료 부족과 추가 필요 명시"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "34",
+      "provider": "sol",
+      "repeat_of": "13",
+      "checked_against": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "34",
+      "provider": "opus",
+      "repeat_of": "13",
+      "checked_against": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "35",
+      "provider": "sol",
+      "repeat_of": "14",
+      "checked_against": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "core_and_user_constraints": "review",
+      "note": "‘저를 포함한 4명의 팀원과’는 4명 포함 범위는 명시하지만 조사 결합이 어색해 오독 가능성 검토.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "35",
+      "provider": "opus",
+      "repeat_of": "14",
+      "checked_against": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "불필요한 선택적 보완 질문"
+    },
+    {
+      "case_id": "36",
+      "provider": "sol",
+      "repeat_of": "15",
+      "checked_against": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "36",
+      "provider": "opus",
+      "repeat_of": "15",
+      "checked_against": [
+        "개인정리/팀제안 분리",
+        "회의록과 변경 인과 미확인 유지",
+        "새 성과 없음",
+        "설명 간결"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "관례적 보완 질문"
+    },
+    {
+      "case_id": "37",
+      "provider": "sol",
+      "repeat_of": "20",
+      "checked_against": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "37",
+      "provider": "opus",
+      "repeat_of": "20",
+      "checked_against": [
+        "전후수치 보존",
+        "인과 근거 부족 지적",
+        "응답자/대조군 제한 반영",
+        "검토와 확정 결론 구분"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "38",
+      "provider": "sol",
+      "repeat_of": "21",
+      "checked_against": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "38",
+      "provider": "opus",
+      "repeat_of": "21",
+      "checked_against": [
+        "문항별70자실측",
+        "3명 및 공동결정 보존",
+        "발견/담당수정 분리",
+        "재발미확인 보존"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": "무수정 이유 여러 문장 및 선택적 보완 질문"
+    },
+    {
+      "case_id": "39",
+      "provider": "sol",
+      "repeat_of": "25",
+      "checked_against": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    },
+    {
+      "case_id": "39",
+      "provider": "opus",
+      "repeat_of": "25",
+      "checked_against": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "core_and_user_constraints": "pass",
+      "note": "원문과 최종 응답 대조에서 중대한 위반을 발견하지 않음.",
+      "strict_format_note": null
+    }
+  ],
+  "adjudication": {
+    "core": "두 독립 검토 모두 고유 32개/결과 64개에서 중대한 의미 변경을 발견하지 않음. 작업 에이전트도 동의.",
+    "repeat_35_sol": "포함된 4명이라고 적었지만 팀원과 구문이 오독을 만들 수 있어 개선 대상으로 채택.",
+    "date_04_sol": "측정 시점을 테스트 실시 시점으로 묶는 표현은 원래 사건 표지 유지가 더 안전해 개선 대상으로 채택.",
+    "optional_questions": "14/15 및 반복의 질문은 polish 완료에 불필요. 파생 규칙 충돌을 수정하기로 함.",
+    "review_layout": "요약에 없는 실제 배치를 단정하지 않도록 보강.",
+    "contextual_ellipsis": "승인 대기 시간 중앙값의 문맥 보완, 이미 명시한 주체의 반복 생략, 파일럿 제목 아래 대상 생략을 곧바로 사실 창작으로 판정하지 않음. 검토자 제안과 확정 오류를 구분.",
+    "format": "무수정 이유 한 문장 및 보존 규칙 설명 생략에 일부 편차가 남음. 완전한 형식 통과로 보고하지 않음."
+  }
+}

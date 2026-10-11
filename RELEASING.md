@@ -1,5 +1,16 @@
 # RELEASING — 릴리스 체크리스트
 
+## 개인 포크 personal-writing 릴리스
+
+이 저장소의 활성 marketplace는 `extensions/personal-writing`을 배포한다. 아래 원본 체크리스트의 루트 README 및 marketplace 항목은 원본 프로젝트의 역사 기록이다. 개인 패키지를 배포할 때는 다음을 적용한다.
+
+1. `extensions/personal-writing/.claude-plugin/plugin.json`의 버전과 루트 marketplace의 metadata/entry 버전, 개인 README 제목을 함께 갱신한다. 원본 humanize-korean 버전은 별도 관리한다.
+2. 개인 테스트, `tests/test_version_sync.py`, 플러그인/marketplace 검증을 실행한다. CI도 개인 테스트를 실행한다.
+3. 기본 계약 변경은 다섯 파생 타입을 포함한 실제 모델 평가로 확인한다. 평가 시점의 스킬 사본·해시·요청·응답·모델 메타데이터·실패 내역을 `evals/`에 남긴다.
+4. README에서 현재 평가 보고서와 설치 경로를 확인한 뒤 커밋·푸시한다. 원시 CLI trace와 인증 정보는 게시하지 않는다.
+
+## 아래는 원본 humanize-korean 릴리스 기록
+
 v1.6.1과 v2.0 릴리스에서 `SKILL.md` 버전 갱신이 **두 번 연속 누락**됐고, 그 결과 clone한 사용자가 v2.0 표기 아래 v1.5 오케스트레이션을 실행하는 사고가 있었습니다. 또 태그 `v2.0.0`이 발행 노트·썸네일 커밋보다 먼저 찍혀 릴리스 아카이브에 v2.0 발행 노트가 빠졌습니다. 본 문서는 그 두 사고의 재발을 구조적으로 막는 체크리스트입니다.
 
 ## 1. 버전 문자열이 등장하는 위치 (전수 — 릴리스마다 모두 갱신)

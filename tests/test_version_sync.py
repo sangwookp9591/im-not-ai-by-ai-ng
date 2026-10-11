@@ -5,6 +5,9 @@ RELEASING.md는 "SKILL.md frontmatter가 런타임 SSOT"라고 못박고, 버전
 (`.claude-plugin/*.json`)와 Copilot 배포 매니페스트(`plugin.json`)가
 런타임 SSOT와 어긋나지 않도록 함께 검증한다.
 
+개인 포크의 marketplace는 원본과 독립된 extensions/personal-writing 버전을 따른다.
+각 marketplace 항목은 실제 source 패키지의 이름·버전과 대조한다.
+
 이 테스트는 그 누락을 사람의 체크리스트 대신 코드가 막는다 —
 `build_quick_rules.py --check`가 룰북 drift를 막는 것과 같은 방식.
 
@@ -65,24 +68,31 @@ class ManifestVersionSyncTests(unittest.TestCase):
             f"— RELEASING.md §1 표대로 함께 갱신할 것",
         )
 
-    def test_marketplace_metadata_matches_skill(self) -> None:
-        actual = json.loads(_read(_MARKETPLACE))["metadata"]["version"]
-        self.assertEqual(
-            actual,
-            self.expected,
-            f"marketplace.json metadata.version={actual} != SKILL.md {self.expected}",
-        )
+    def test_marketplace_metadata_matches_personal_plugin(self) -> None:
+        market = json.loads(_read(_MARKETPLACE))
+        personal = json.loads(_read(os.path.join(
+            _ROOT, "extensions/personal-writing/.claude-plugin/plugin.json")))
+        self.assertEqual(market["metadata"]["version"], personal["version"])
 
-    def test_marketplace_entry_matches_skill(self) -> None:
+    def test_marketplace_entries_match_their_source(self) -> None:
         entries = json.loads(_read(_MARKETPLACE))["plugins"]
+        self.assertTrue(entries)
         for entry in entries:
             with self.subTest(plugin=entry["name"]):
-                self.assertEqual(
-                    entry["version"],
-                    self.expected,
-                    f"marketplace.json plugins[{entry['name']}].version="
-                    f"{entry['version']} != SKILL.md {self.expected}",
-                )
+                source = os.path.realpath(os.path.join(_ROOT, entry["source"]))
+                self.assertEqual(os.path.commonpath([_ROOT, source]), _ROOT)
+                manifest = json.loads(_read(os.path.join(
+                    source, ".claude-plugin/plugin.json")))
+                self.assertEqual(entry["name"], manifest["name"])
+                self.assertEqual(entry["version"], manifest["version"])
+
+    def test_personal_marketplace_installs_personal_bundle(self) -> None:
+        market = json.loads(_read(_MARKETPLACE))
+        self.assertEqual(market["name"], "im-not-ai-by-ai-ng")
+        self.assertEqual(
+            [(e["name"], e["source"]) for e in market["plugins"]],
+            [("personal-writing", "./extensions/personal-writing")],
+        )
 
 
 class ManifestDescriptionTests(unittest.TestCase):

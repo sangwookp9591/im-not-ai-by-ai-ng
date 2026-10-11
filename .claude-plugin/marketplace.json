@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "기본 계약에서 용도별로 파생되는 개인 한국어 글쓰기 스킬",
-    "version": "0.3.0"
+    "version": "0.3.6"
   },
   "plugins": [
     {
       "name": "personal-writing",
       "source": "./extensions/personal-writing",
       "description": "기본·기획·PPT·프레젠테이션·발표·자기소개서 6개 스킬",
-      "version": "0.3.0"
+      "version": "0.3.6"
     }
   ]
 }

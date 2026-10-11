@@ -1,0 +1,57 @@
+{
+  "total_generation_calls": 346,
+  "unique_inputs": 37,
+  "rounds": [
+    {
+      "round": "2026-10-11-sol61-opus55",
+      "cases_per_model": 14,
+      "unique_inputs": 14,
+      "generation_calls": 28
+    },
+    {
+      "round": "2026-10-11-v030-round1",
+      "cases_per_model": 22,
+      "unique_inputs": 22,
+      "generation_calls": 44
+    },
+    {
+      "round": "2026-10-11-v031-round2",
+      "cases_per_model": 26,
+      "unique_inputs": 26,
+      "generation_calls": 52
+    },
+    {
+      "round": "2026-10-11-v032-round3",
+      "cases_per_model": 30,
+      "unique_inputs": 30,
+      "generation_calls": 60
+    },
+    {
+      "round": "2026-10-11-v033-final",
+      "cases_per_model": 39,
+      "unique_inputs": 32,
+      "generation_calls": 78
+    },
+    {
+      "round": "2026-10-11-v034-regression",
+      "cases_per_model": 22,
+      "unique_inputs": 16,
+      "generation_calls": 44
+    },
+    {
+      "round": "2026-10-11-v035-confirmation",
+      "cases_per_model": 10,
+      "unique_inputs": 8,
+      "generation_calls": 20
+    },
+    {
+      "round": "2026-10-11-v036-release",
+      "cases_per_model": 10,
+      "unique_inputs": 9,
+      "generation_calls": 20
+    }
+  ],
+  "scope_note": "실행 수는 버전별 누적이며 최종 버전의 단일 통과율이 아니다.",
+  "independent_review_calls": 10,
+  "identity_probe_calls": 2
+}

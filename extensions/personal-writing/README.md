@@ -1,4 +1,4 @@
-# Personal Writing 0.3.0
+# Personal Writing 0.3.6
 
 im-not-ai 복제본에서 관리하는 개인 글쓰기 스킬입니다. 공통 기본 1개와 독립적으로 호출할 수 있는 파생 5개를 제공합니다.
 
@@ -44,7 +44,7 @@ mkdir -p /absolute/path/to/project/.agents/skills
 cp -R /absolute/path/to/my-writing-skills/extensions/personal-writing/skills/. /absolute/path/to/project/.agents/skills/
 ```
 
-원본 `install.sh`는 humanize-korean 설치용이므로 이 묶음 설치에 사용하지 않습니다. 이번 작업에서 전역 설치나 원격 게시는 실행하지 않았습니다.
+원본 `install.sh`는 humanize-korean 설치용이므로 이 묶음 설치에 사용하지 않습니다. 개인 GitHub 마켓플레이스에 게시했습니다. 이 작업에서 사용자의 전역 스킬 디렉터리는 변경하지 않았습니다.
 
 ## 내 규칙 수정
 
@@ -74,13 +74,15 @@ python3 -m unittest discover -s tests -v
 
 각 스킬은 skill-creator의 quick_validate.py로도 검증합니다. 구조·참조·길이 검증과 실제 모델의 교정 품질은 별개입니다. 실제 모델 평가 입력은 [behavior-cases.md](tests/behavior-cases.md)에 있습니다.
 
-PPTX 디자인/렌더링은 포함하지 않습니다. 실제 발표 시간, 국내 직무별 자기소개서 적합성, 모델별 교정 품질은 별도 평가가 필요합니다. 전용 타입은 원본 산문 점수·light/standard/heavy 게이트를 호출하지 않습니다.
+PPTX 디자인/렌더링은 포함하지 않습니다. 실제 발표 시간과 국내 직무별 자기소개서 적합성은 실무 자료로 추가 검증해야 합니다. 모델 교정 품질의 합성 사례 평가 범위는 아래 보고서에 기록합니다. 전용 타입은 원본 산문 점수·light/standard/heavy 게이트를 호출하지 않습니다.
 
 파생 원본: epoko77-ai/im-not-ai, commit `2f3d943d08056b612a92e12bfb72ea94dd2acd18`. MIT 고지는 [LICENSE](LICENSE)에 보존합니다. [초기 개선 보고서](../../TEAM-WRITING-REVIEW.md).
 
 ## 실제 모델 평가 (2026-10-11)
 
-Sol 6.1과 Opus 5.5에 각각 14개 합성 사례를 실제 실행했습니다. Sol은 13개 통과·1개 수정 필요(인과 추가), Opus는 13개 통과·1개 검토 보류(추측 표지 축약)입니다. 스킬 읽기를 명시한 평가이며 자동 탐색·실무 전반 품질 보장은 아닙니다. [전체 보고서와 원문 결과](../../evals/2026-10-11-sol61-opus55/REPORT.md)를 확인하세요.
+Sol 6.1(`gpt-6.1-sol`)과 Opus 5.5(`claude-opus-5-5`)를 실제 실행하며 개선했습니다. 인과 추가, 복합 추측 축약, 사건·인원·날짜의 범위 변경, 오래된 글자 수 보고, 미확인 평균 추론을 발견해 보강했습니다.
+
+[현재 버전의 결과·검증 범위](../../evals/2026-10-11-v036-release/REPORT.md)와 [초기 실패 기록](../../evals/2026-10-11-sol61-opus55/REPORT.md)을 함께 공개합니다. 전체 평가를 최종 버전 한 번의 통과 수치로 합산하지 않습니다. 합성 입력과 명시적 스킬 호출 평가이며, 실무 전반 품질이나 자동 탐색을 보장하지 않습니다.
 
 ## GitHub 마켓플레이스 설치
 

@@ -1,0 +1,235 @@
+{
+  "evaluator": "작업 에이전트 원문 대조; 인간 전문가 평가 아님",
+  "records": [
+    {
+      "case_id": "13",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "13",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+        "REQ1-3 표와 의무/선택/금지 보존",
+        "외부고객 미조사와 자동승인 제외 유지",
+        "가정/부담가능성/담당예산미정 유지"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "14",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "4명/12명 보존",
+        "본인 조율정리/타인질문지/공동화면 역할 보존",
+        "미출시와 성과미측정 유지",
+        "350자 이하 및 실제 길이 측정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "16",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "예상/가능 전체 보존",
+        "삭제의무 유지",
+        "감사 중 예외 기간/가능 보존",
+        "간결한 설명"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "16",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "예상/가능 전체 보존",
+        "삭제의무 유지",
+        "감사 중 예외 기간/가능 보존",
+        "간결한 설명"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "25",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "25",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "28",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "%와 %p 구분",
+        "직접 인용 정확히 유지",
+        "표본 제한 보존"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "29",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "29",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "구어체 군더더기 실제 교정",
+        "목표와 확정 구분",
+        "본문만 출력"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "39",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "39",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "41",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "41",
+      "provider": "opus",
+      "core_and_user_constraints": "review",
+      "checks": [
+        "요약에없는배치단정금지",
+        "동일집단인과단정금지",
+        "구체조치"
+      ],
+      "note": "예시에는 평균을 넣지 않았지만 영향 설명이 미확인 평균 지표를 전제하는 것처럼 읽힐 수 있음. v0.3.6에서 집계 정의 보호."
+    },
+    {
+      "case_id": "44",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "배제불가/효과미확인 구간유지",
+        "이중피동실제교정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "44",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "배제불가/효과미확인 구간유지",
+        "이중피동실제교정"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "45",
+      "provider": "sol",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    },
+    {
+      "case_id": "45",
+      "provider": "opus",
+      "core_and_user_constraints": "pass",
+      "checks": [
+        "부정포함가능성강도보존",
+        "8건보존",
+        "효과결론유보보존",
+        "200자이내메모"
+      ],
+      "note": null
+    }
+  ]
+}
