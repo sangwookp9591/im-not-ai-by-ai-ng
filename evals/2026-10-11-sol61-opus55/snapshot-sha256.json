@@ -1,0 +1,16 @@
+{
+  "skills/my-application/SKILL.md": "a46e46168f1f8cb156d93bd693d27f1462f50aca0e305071ff93ad05adcbe920",
+  "skills/my-presentation/SKILL.md": "8808a845c2ac0445cc86e79ed4a3c6d5f39b3bd169215a67d4ea22f531771cb2",
+  "skills/my-writing-base/SKILL.md": "9106fac609d53808782497096ddba52e11d4aa787670f46e5d983323f2ec1df9",
+  "skills/my-slides/SKILL.md": "7f8434fa810222baa6fdf50e707395cb3bdc76c6f2f3097d3bb57a80e37be379",
+  "skills/my-speech/SKILL.md": "c9eb5cf1871e61814ece9c040567e6ce1b8bba14c502fc12ff7aa2bf3a4d15f7",
+  "skills/my-planning/SKILL.md": "b5dea0cf4cbd56aa8bf0cdf1186dd9c7390e7f123015ef69aa7c8ef2047664d6",
+  "skills/my-planning/references/rules.md": "2be7818ee176299b75dd53bfcf4609ad3fb6f37039b9c60d1d5cfd2aaea005b6",
+  "skills/my-speech/references/rules.md": "beb77fee946f13d7e8f7a46eda619ccfc3f2bbd4045d8d2bd86233dad2941787",
+  "skills/my-slides/references/rules.md": "2200680d20fbd96cba9c8b368af4d61b81ba8a4419f283f8d71390a4705b8454",
+  "skills/my-writing-base/references/sources.md": "305368b26f644aa9dd90e81c0db6cc7b2d42b4305f085d2e717d5accdefadae7",
+  "skills/my-writing-base/references/core.md": "3c387a6f0932cf2051f4425020240123d191189f121e5433fc945759cf076cb7",
+  "skills/my-writing-base/scripts/text_stats.py": "f1d4709f0f30bc5f326c5b3df1cdce0c71cfb20ff4238a7c7f5ebc7b351fd0c1",
+  "skills/my-presentation/references/rules.md": "7581d3ef926d9b5a8aa26b149e4a06c2427496ff8f52a03933c9df75ab5aede2",
+  "skills/my-application/references/rules.md": "054c82620d7ebc14c9098519daf547299d544a3d8fa16c17db0a749724ea5c52"
+}

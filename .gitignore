@@ -25,3 +25,8 @@ __pycache__/
 
 # Local Claude Code loader convenience (symlinks into agents/)
 .claude/
+
+# Local CLI traces may contain machine/session metadata. Keep model outputs and summaries.
+evals/**/trace.jsonl
+evals/**/stderr.txt
+evals/**/probe/

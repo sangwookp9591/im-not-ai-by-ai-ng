@@ -1,0 +1,790 @@
+{
+  "reviewer": "primary AI assistant; not human evaluation",
+  "rubric": "case-specific four criteria plus shared fidelity contract",
+  "rows": [
+    {
+      "provider": "sol",
+      "case_id": "01",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "ID 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "의무 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "긴급 요청 예외와 가능성 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "불필요한 재작성 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "원문 유지. 승인 의무와 긴급 요청 예외 유지.",
+      "output": "runs/sol/01/final.md",
+      "trace": "runs/sol/01/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "02",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "리뷰만",
+          "status": "pass"
+        },
+        {
+          "requirement": "목표/실적 구별",
+          "status": "pass"
+        },
+        {
+          "requirement": "담당 창작 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "측정 기준 또는 담당 등 구체 누락 지적",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "10% 상대 개선과 10%p의 모호함을 지적하고 목표를 실적으로 바꾸지 않음.",
+      "output": "runs/sol/02/final.md",
+      "trace": "runs/sol/02/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "03",
+      "skill": "my-slides",
+      "checks": [
+        {
+          "requirement": "S2 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "3초/2초/n=20 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "불릿/짧은 문구 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "고객 전체 효과로 확대 금지",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "S2, 불릿, 3초→2초, 내부 테스트와 n=20 유지.",
+      "output": "runs/sol/03/final.md",
+      "trace": "runs/sol/03/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "04",
+      "skill": "my-slides",
+      "checks": [
+        {
+          "requirement": "화면에 내부 테스트와 n=20",
+          "status": "pass"
+        },
+        {
+          "requirement": "시간 수치 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "10월 유지 및 이동 추적",
+          "status": "pass"
+        },
+        {
+          "requirement": "성과 확대 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "화면 주석에 테스트 범위·표본·측정 월을 남기고 설명은 노트로 구분.",
+      "output": "runs/sol/04/final.md",
+      "trace": "runs/sol/04/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "05",
+      "skill": "my-presentation",
+      "checks": [
+        {
+          "requirement": "근거 없는 최저가 지적",
+          "status": "pass"
+        },
+        {
+          "requirement": "비용 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "재구성은 제안으로 구별",
+          "status": "pass"
+        },
+        {
+          "requirement": "도입 확정으로 바꾸지 않음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "비용 자료 없는 최저가 주장을 지적하고 구성 변경은 제안으로 구별.",
+      "output": "runs/sol/05/final.md",
+      "trace": "runs/sol/05/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "06",
+      "skill": "my-speech",
+      "checks": [
+        {
+          "requirement": "두 목표 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "의무 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "길잡이 또는 동등한 청취 구조 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "구어 격식 보존",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "첫째/둘째와 줄여야 합니다를 보존.",
+      "output": "runs/sol/06/final.md",
+      "trace": "runs/sol/06/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "07",
+      "skill": "my-speech",
+      "checks": [
+        {
+          "requirement": "검토 단계와 비용 미확인 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "분량 채우기 위한 사실 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "3분 확정 주장 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "자료 부족과 추가 필요 명시",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "검토 단계·비용 미확인을 보존하고 3분 분량 미달/자료 부족을 밝힘.",
+      "output": "runs/sol/07/final.md",
+      "trace": "runs/sol/07/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "08",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "개인 일정 조율/팀 인터뷰 분리",
+          "status": "pass"
+        },
+        {
+          "requirement": "12명 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "제출 본문 100자 이하",
+          "status": "pass"
+        },
+        {
+          "requirement": "길이 도구 실제 실행",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "일정 조율은 개인, 인터뷰는 팀으로 구분. 실제 길이 도구 실행과 최종 본문 일치 확인.",
+      "output": "runs/sol/08/final.md",
+      "trace": "runs/sol/08/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "09",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "성과 수치 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "도움 역할 주도 격상 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "새 행동 경험 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "보완 질문/메모 본문과 구별",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "자료 정리 도움 역할을 주도 역할로 올리지 않고 수치 창작 없이 질문을 분리.",
+      "output": "runs/sol/09/final.md",
+      "trace": "runs/sol/09/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "10",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "화면/노트 구획 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "비용 미확정 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "길잡이 표현 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "해당 파생 규칙 실제 로드",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "슬라이드와 발표 규칙을 실제로 읽고 구획별 적용. 비용 미확정·전환 표현 보존.",
+      "output": "runs/sol/10/final.md",
+      "trace": "runs/sol/10/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "11",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "방향/속도 우선관계 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "질/양 우선관계 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "검증되지 않음 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "새 주장 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "방향/속도와 질/양 관계, 검증되지 않았다는 조건 모두 보존.",
+      "output": "runs/sol/11/final.md",
+      "trace": "runs/sol/11/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "12",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "시간과 날짜 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "조건 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "적절한 원문 유지 또는 최소 교정",
+          "status": "pass"
+        },
+        {
+          "requirement": "AI 작성 판정/확률 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "원문 무수정. 목요일 오후 2시와 수요일까지의 회신 조건 유지.",
+      "output": "runs/sol/12/final.md",
+      "trace": "runs/sol/12/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "13",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "REQ1-3 표와 의무/선택/금지 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "외부고객 미조사와 자동승인 제외 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "가정/부담가능성/담당예산미정 유지",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "표·ID·필수/선택/금지·수치·범위 제외 유지.",
+      "output": "runs/sol/13/final.md",
+      "trace": "runs/sol/13/trace.jsonl"
+    },
+    {
+      "provider": "sol",
+      "case_id": "14",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "4명/12명 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "본인 조율정리/타인질문지/공동화면 역할 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "미출시와 성과미측정 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "350자 이하 및 실제 길이 측정",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "fail",
+      "overall": "fail",
+      "evidence": "4명/12명, 개인/동료/팀 역할, 미출시/성과 미측정 유지. 실제 길이 측정. 다만 이를 바탕으로를 추가해 정리→제안의 원문에 명시되지 않은 근거 관계를 확정. 공통 인과 보존 계약 위반.",
+      "output": "runs/sol/14/final.md",
+      "trace": "runs/sol/14/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "01",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "ID 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "의무 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "긴급 요청 예외와 가능성 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "불필요한 재작성 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "원문 유지. 승인 의무와 긴급 요청 예외 유지.",
+      "output": "runs/opus/01/final.md",
+      "trace": "runs/opus/01/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "02",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "리뷰만",
+          "status": "pass"
+        },
+        {
+          "requirement": "목표/실적 구별",
+          "status": "pass"
+        },
+        {
+          "requirement": "담당 창작 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "측정 기준 또는 담당 등 구체 누락 지적",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "10% 상대 개선과 10%p의 모호함을 지적하고 목표를 실적으로 바꾸지 않음.",
+      "output": "runs/opus/02/final.md",
+      "trace": "runs/opus/02/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "03",
+      "skill": "my-slides",
+      "checks": [
+        {
+          "requirement": "S2 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "3초/2초/n=20 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "불릿/짧은 문구 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "고객 전체 효과로 확대 금지",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "S2, 불릿, 3초→2초, 내부 테스트와 n=20 유지.",
+      "output": "runs/opus/03/final.md",
+      "trace": "runs/opus/03/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "04",
+      "skill": "my-slides",
+      "checks": [
+        {
+          "requirement": "화면에 내부 테스트와 n=20",
+          "status": "pass"
+        },
+        {
+          "requirement": "시간 수치 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "10월 유지 및 이동 추적",
+          "status": "pass"
+        },
+        {
+          "requirement": "성과 확대 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "화면 주석에 테스트 범위·표본·측정 월을 남기고 설명은 노트로 구분.",
+      "output": "runs/opus/04/final.md",
+      "trace": "runs/opus/04/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "05",
+      "skill": "my-presentation",
+      "checks": [
+        {
+          "requirement": "근거 없는 최저가 지적",
+          "status": "pass"
+        },
+        {
+          "requirement": "비용 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "재구성은 제안으로 구별",
+          "status": "pass"
+        },
+        {
+          "requirement": "도입 확정으로 바꾸지 않음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "비용 자료 없는 최저가 주장을 지적하고 구성 변경은 제안으로 구별.",
+      "output": "runs/opus/05/final.md",
+      "trace": "runs/opus/05/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "06",
+      "skill": "my-speech",
+      "checks": [
+        {
+          "requirement": "두 목표 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "의무 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "길잡이 또는 동등한 청취 구조 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "구어 격식 보존",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "첫째/둘째와 줄여야 합니다를 보존.",
+      "output": "runs/opus/06/final.md",
+      "trace": "runs/opus/06/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "07",
+      "skill": "my-speech",
+      "checks": [
+        {
+          "requirement": "검토 단계와 비용 미확인 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "분량 채우기 위한 사실 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "3분 확정 주장 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "자료 부족과 추가 필요 명시",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "검토 단계·비용 미확인을 보존하고 3분 분량 미달/자료 부족을 밝힘.",
+      "output": "runs/opus/07/final.md",
+      "trace": "runs/opus/07/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "08",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "개인 일정 조율/팀 인터뷰 분리",
+          "status": "pass"
+        },
+        {
+          "requirement": "12명 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "제출 본문 100자 이하",
+          "status": "pass"
+        },
+        {
+          "requirement": "길이 도구 실제 실행",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "일정 조율은 개인, 인터뷰는 팀으로 구분. 실제 길이 도구 실행과 최종 본문 일치 확인.",
+      "output": "runs/opus/08/final.md",
+      "trace": "runs/opus/08/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "09",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "성과 수치 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "도움 역할 주도 격상 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "새 행동 경험 날조 없음",
+          "status": "pass"
+        },
+        {
+          "requirement": "보완 질문/메모 본문과 구별",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "자료 정리 도움 역할을 주도 역할로 올리지 않고 수치 창작 없이 질문을 분리.",
+      "output": "runs/opus/09/final.md",
+      "trace": "runs/opus/09/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "10",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "화면/노트 구획 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "비용 미확정 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "길잡이 표현 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "해당 파생 규칙 실제 로드",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "슬라이드와 발표 규칙을 실제로 읽고 구획별 적용. 비용 미확정·전환 표현 보존.",
+      "output": "runs/opus/10/final.md",
+      "trace": "runs/opus/10/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "11",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "방향/속도 우선관계 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "질/양 우선관계 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "검증되지 않음 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "새 주장 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "방향/속도와 질/양 관계, 검증되지 않았다는 조건 모두 보존.",
+      "output": "runs/opus/11/final.md",
+      "trace": "runs/opus/11/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "12",
+      "skill": "my-writing-base",
+      "checks": [
+        {
+          "requirement": "시간과 날짜 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "조건 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "적절한 원문 유지 또는 최소 교정",
+          "status": "pass"
+        },
+        {
+          "requirement": "AI 작성 판정/확률 없음",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "원문 무수정. 목요일 오후 2시와 수요일까지의 회신 조건 유지.",
+      "output": "runs/opus/12/final.md",
+      "trace": "runs/opus/12/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "13",
+      "skill": "my-planning",
+      "checks": [
+        {
+          "requirement": "9월/40건/중앙값2일/11월/2팀/2주/목표1일 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "REQ1-3 표와 의무/선택/금지 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "외부고객 미조사와 자동승인 제외 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "가정/부담가능성/담당예산미정 유지",
+          "status": "review"
+        }
+      ],
+      "common_fidelity": "review",
+      "overall": "review",
+      "evidence": "표·ID·필수/선택/금지·수치·범위 제외 유지. 빨라질 수 있을 것으로 보인다→빨라질 수 있다로 판단/추측 표지를 제거. 가능성은 남지만 확신도 보존은 추가 검토 필요.",
+      "output": "runs/opus/13/final.md",
+      "trace": "runs/opus/13/trace.jsonl"
+    },
+    {
+      "provider": "opus",
+      "case_id": "14",
+      "skill": "my-application",
+      "checks": [
+        {
+          "requirement": "4명/12명 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "본인 조율정리/타인질문지/공동화면 역할 보존",
+          "status": "pass"
+        },
+        {
+          "requirement": "미출시와 성과미측정 유지",
+          "status": "pass"
+        },
+        {
+          "requirement": "350자 이하 및 실제 길이 측정",
+          "status": "pass"
+        }
+      ],
+      "common_fidelity": "pass",
+      "overall": "pass",
+      "evidence": "4명/12명, 개인/동료/팀 역할, 미출시/성과 미측정 유지. 실제 길이 측정.",
+      "output": "runs/opus/14/final.md",
+      "trace": "runs/opus/14/trace.jsonl"
+    }
+  ]
+}

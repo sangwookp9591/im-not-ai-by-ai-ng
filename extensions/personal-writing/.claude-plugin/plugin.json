@@ -1,0 +1,9 @@
+{
+  "name": "personal-writing",
+  "version": "0.3.0",
+  "description": "기본 스킬에서 기획·PPT·프레젠테이션·발표·자기소개서로 파생되는 개인 글쓰기 스킬",
+  "author": {
+    "name": "Personal Writing contributors"
+  },
+  "license": "MIT"
+}
