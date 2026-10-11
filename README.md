@@ -10,3 +10,14 @@ im-not-ai를 복제해 기본 → 용도별 파생 스킬 구조로 확장한 �
 - [원본 README](README.upstream.md)
 
 원본 코드는 비교와 개선을 위해 보존합니다. 루트의 기존 설치 스크립트 대신 개인 패키지의 사용 안내를 따르세요. 로컬 복제본이며 아직 원격 배포하지 않았습니다.
+
+## Claude Code 설치
+
+```text
+/plugin marketplace add sangwookp9591/im-not-ai-by-ai-ng
+/plugin install personal-writing@im-not-ai-by-ai-ng
+```
+
+이 저장소의 마켓플레이스는 extensions/personal-writing을 설치합니다. 원본 humanize-korean은 비교용으로 보존되어 있습니다. Codex 설치와 파생 스킬 추가는 [개인 패키지 안내](extensions/personal-writing/README.md)를 참고하세요.
+
+평가 결과·메타데이터는 저장소에 보존하며, CLI 원시 trace와 stderr는 세션/컴퓨터 정보가 포함될 수 있어 로컬 평가 폴더에만 보관합니다.

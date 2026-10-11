@@ -81,3 +81,10 @@ PPTX 디자인/렌더링은 포함하지 않습니다. 실제 발표 시간, 국
 ## 실제 모델 평가 (2026-10-11)
 
 Sol 6.1과 Opus 5.5에 각각 14개 합성 사례를 실제 실행했습니다. Sol은 13개 통과·1개 수정 필요(인과 추가), Opus는 13개 통과·1개 검토 보류(추측 표지 축약)입니다. 스킬 읽기를 명시한 평가이며 자동 탐색·실무 전반 품질 보장은 아닙니다. [전체 보고서와 원문 결과](../../evals/2026-10-11-sol61-opus55/REPORT.md)를 확인하세요.
+
+## GitHub 마켓플레이스 설치
+
+```text
+/plugin marketplace add sangwookp9591/im-not-ai-by-ai-ng
+/plugin install personal-writing@im-not-ai-by-ai-ng
+```

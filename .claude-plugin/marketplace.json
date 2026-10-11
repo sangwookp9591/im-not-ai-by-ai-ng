@@ -1,20 +1,18 @@
 {
-  "name": "im-not-ai",
+  "name": "im-not-ai-by-ai-ng",
   "owner": {
-    "name": "epoko77-ai"
+    "name": "sangwookp9591"
   },
   "metadata": {
-    "description": "AI가 쓴 한글 텍스트를 사람이 쓴 글처럼 윤문하는 humanize-korean 스킬 마켓플레이스",
-    "version": "2.3.2",
-    "pluginRoot": "."
+    "description": "기본 계약에서 용도별로 파생되는 개인 한국어 글쓰기 스킬",
+    "version": "0.3.0"
   },
   "plugins": [
     {
-      "name": "humanize-korean",
-      "source": "./",
-      "description": "AI가 쓴 한글 텍스트를 사람이 쓴 글처럼 윤문하는 오케스트레이터 스킬 + 서브에이전트 묶음 (route_hint 3경로).",
-      "version": "2.3.2",
-      "keywords": ["korean", "humanize", "ai-detector", "윤문", "번역투"]
+      "name": "personal-writing",
+      "source": "./extensions/personal-writing",
+      "description": "기본·기획·PPT·프레젠테이션·발표·자기소개서 6개 스킬",
+      "version": "0.3.0"
     }
   ]
 }
